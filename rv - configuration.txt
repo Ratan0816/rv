@@ -1,0 +1,16 @@
+for desktop github:- https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+for git:- https://git-scm.com/download/win
+
+global configuration
+
+git config --global user.name "itvedant"
+git config --global user.email "ratanvemula@gmail.com"
+
+
+echo "# rv" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ratan0816/rv.git
+git push -u origin main
